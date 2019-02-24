@@ -15,4 +15,31 @@ body {
 
 .App-content {
   padding: 24px;
+  min-height: 400px;
+}
+
+.App-header-menu {
+  margin-bottom: 60px;
+}
+
+.App-timeline {
+  max-width: 600px;
+  margin: 60px auto;
+}
+
+/* Create React App */
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 6vmin;
+  display: block;
+  margin: auto;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
