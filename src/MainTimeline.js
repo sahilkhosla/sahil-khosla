@@ -6,8 +6,10 @@ class MainTimeline extends Component {
   render() {
     return (
       <Timeline mode="alternate">
-        <Timeline.Item color="#fc0">2018 - Promoted to Manager</Timeline.Item>
-        <Timeline.Item color="#fc0">Decided to continue at Expedia post acquisition - 2016</Timeline.Item>
+        <Timeline.Item>...</Timeline.Item>
+        <Timeline.Item color="#97d700">Joined OANDA (A FinTech company based in Toronto) - 2019</Timeline.Item>
+        <Timeline.Item dot={<Icon type="flag" style={{ fontSize: '16px', color: 'red' }}/>}>2019 - Moved to Canada</Timeline.Item>
+        <Timeline.Item color="#fc0">Accepted a role as an Engineering Manager (Team Lead) - 2017</Timeline.Item>
         <Timeline.Item dot={<Icon type="flag" style={{ fontSize: '16px' }}/>}>2015 - Expedia acquires Orbitz</Timeline.Item>
         <Timeline.Item color="purple">Promoted to Sr. Software Engineer - 2015</Timeline.Item>
         <Timeline.Item color="purple">2014 - Joined Orbitz Worldwide as a Software Engineer II (Hotel Experimentation, Research and Development)</Timeline.Item>
